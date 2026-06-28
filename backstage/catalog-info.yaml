@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: spot-render-team
+  description: Equipe responsável pela plataforma Spot Render.
+spec:
+  type: team
+  profile:
+    displayName: Spot Render Team
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: spot-render
+  description: Sistema completo de renderização distribuída.
+spec:
+  owner: group:spot-render-team
